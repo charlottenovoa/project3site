@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+}
+
+.navbar {
+    display: flex;
+    justify-content: flex-start;
+    background-color: white;
+    font-size: 25px;
+    padding: 3rem 7rem;
+    gap: 9rem;
+    border-bottom: 1px solid #ddd;
+}
+
+/* everything above is for navigation area */
+
+.slogan {
+    display: flex;
+    justify-content: left;
+    font-size: 30px;
+    margin: 3rem 0;
+}
+
+.homepage {
+    display: flex;
+    gap: 6rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.summary {
+    max-width: 600px;
+    font-size: 22px;
+    line-height: 1.6;
+}
+
+
+/* logo coding */
+.homepage-img img {
+    max-width: 600px;
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 8px;
+}
+
+.solid-border {
+    margin-top: 2rem;
+    border-bottom: 1px solid #ddd;
+}
+
+
+
