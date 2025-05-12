@@ -18,23 +18,33 @@
 }
 
 .Info-no1 {
-    font-family:  'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 18pt;
     height: 500px;
-    width:80%;
-    border: 4px solid purple; 
+    width: 80%;
+    border: 4px solid purple;
     display: flex;
     justify-content: center;
-   
+
 }
 
 .Info-no2 {
-    font-family:  'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 18pt;
     height: 500px;
-    width:80%;
-    border: 4px solid purple; 
+    width: 80%;
+    border: 4px solid purple;
     display: flex;
     justify-content: center;
-   
+
+}
+
+.Info-no3 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18pt;
+    height: 1, 000px;
+    width: 80%;
+    border: 4px solid purple;
+    display: flex;
+    justify-content: center;
 }
