@@ -9,7 +9,8 @@
 .navbar {
     display: flex;
     justify-content: flex-start;
-    background-color: white;
+    background-color: #251d6f;
+    color: #ffffff;
     font-size: 25px;
     padding: 3rem 7rem;
     gap: 9rem;
@@ -56,6 +57,11 @@
 
 html {
     background-color: #f8ecdb;
+
+}
+
+a {
+    color: #ffffff;
 }
 
 
