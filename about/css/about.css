@@ -18,7 +18,7 @@ body {
     padding: 3rem 7rem;
     gap: 9rem;
     border-bottom: 1px solid #ddd;
-    align-items: center;
+    text-align: center;
 }
 
 a {
@@ -28,46 +28,59 @@ a {
     font-style: normal;
 }
 
-h2 { 
-    font-family: "kepler-std", serif;
-    font-weight: 700;
-    font-style: normal;
-}
-
 li {
     font-family: "kepler-std", serif;
     font-weight: 400;
     font-style: normal;
 }
+h2 {
+    display: flex;
+    font-family: "kepler-std", serif;
+    font-weight: 700;
+    justify-content: space-around;
+    font-size: 40px;
+    color: rgb(70, 61, 116);
+    text-align: center;
+    margin: 10px
+
+}
+
 
 .Info-no1 {
-    font-family: 'Roboto', sans-serif;
-    font-size: 18pt;
+    font-size: 15pt;
     height: 500px;
     width: 80%;
     border: 4px solid purple;
-    display: flex;
     justify-content: center;
 
 }
 
+
+
 .Info-no2 {
-    font-family: 'Roboto', sans-serif;
-    font-size: 18pt;
+    font-size: 15pt;
     height: 500px;
     width: 80%;
     border: 4px solid purple;
     display: flex;
-    justify-content: center;
 
 }
 
 .Info-no3 {
-    font-family: 'Roboto', sans-serif;
-    font-size: 18pt;
+    font-size: 15pt;
     height: 1, 000px;
     width: 80%;
     border: 4px solid purple;
-    display: flex;
-    justify-content: center;
+
+
+}
+
+.Info-no4 {
+    font-size: 15pt;
+    height: 1, 000px;
+    width: 80%;
+    border: 4px solid purple;
+  
+
+
 }
