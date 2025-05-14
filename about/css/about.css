@@ -6,15 +6,38 @@
     text-decoration: none;
 }
 
+body {
+    background-color: #f8ecdb;
+}
+
 .navbar {
     display: flex;
     justify-content: flex-start;
-    background-color: white;
+    background-color: #251d6f;
     font-size: 25px;
     padding: 3rem 7rem;
     gap: 9rem;
     border-bottom: 1px solid #ddd;
     align-items: center;
+}
+
+a {
+    color: white;
+    font-family: "kepler-std", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h2 { 
+    font-family: "kepler-std", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+li {
+    font-family: "kepler-std", serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .Info-no1 {
