@@ -15,3 +15,33 @@
     gap: 9rem;
     border-bottom: 1px solid #ddd;
 }
+
+/* Page Layout */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* Header Section */
+.header {
+    padding: 20px 0;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 20px;
+}
+
+/* Hero Section */
+.hero {
+    padding: 40px 20px;
+    margin-bottom: 20px;
+    border: 1px solid #eee;
+    text-align: center;
+}
+
+/* Main Content Sections */
+.main-content > div {
+    padding: 30px 20px;
+    margin-bottom: 20px;
+    border: 1px solid #eee;
+}
+/*structure for the cssteam and for the html*/
