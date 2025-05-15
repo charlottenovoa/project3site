@@ -12,13 +12,17 @@ body {
     width: 100%;
 }
 
+main {
+    width: 100%;
+}
+
 .navbar {
     display: flex;
     justify-content: flex-start;
     background-color: #251d6f;
     font-size: 25px;
     padding-top: 3%;
-    gap: 9rem;
+    gap: 5%;
     width: 100%;
     border-bottom: 1px solid #ddd;
     text-align: center;
