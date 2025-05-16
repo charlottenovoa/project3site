@@ -10,11 +10,12 @@
     display: flex;
     justify-content: flex-start;
     background-color: #251d6f;
-    color: #ffffff;
     font-size: 25px;
-    padding: 3rem 7rem;
-    gap: 9rem;
+    padding-top: 3%;
+    gap: 5%;
+    width: 100%;
     border-bottom: 1px solid #ddd;
+    text-align: center;
 }
 
 p { 
