@@ -86,3 +86,18 @@ body {
     border: 1px solid #918d8d;
 }
 /*structure for the cssteam and for the html*/
+
+footer { 
+    background-color: #1d165b;
+    color: white;
+    margin-top: 10%;
+}
+
+.bottom {
+    text-align: center;
+    padding-left: 45%;
+    padding-right: 45%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    margin: 0;
+}
