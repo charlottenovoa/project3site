@@ -9,12 +9,27 @@
 .navbar {
     display: flex;
     justify-content: flex-start;
-    background-color: white;
+    background-color: #251d6f;
+    color: #ffffff;
     font-size: 25px;
     padding: 3rem 7rem;
     gap: 9rem;
     border-bottom: 1px solid #ddd;
 }
+
+p { 
+    font-family: "kepler-std", serif;
+    font-weight: 400;
+}
+
+a {
+    color: white;
+    font-family: "kepler-std", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
 
 .header {
     display: flex;
@@ -26,6 +41,22 @@
     margin-bottom: 5rem;
     font-size: 25px;
 }
+
+h2 {
+    display: flex;
+    font-family: "kepler-std", serif;
+    font-weight: 700;
+    justify-content: space-around;
+    font-size: 40px;
+    color: rgb(70, 61, 116);
+    text-align: center;
+    margin: 10px
+
+}
+
+
+
+
 
 /* images coding */
 
@@ -47,3 +78,43 @@
     margin-top: 5rem;
     border: 1px solid #ddd;
   }
+
+
+  html {
+    background-color: #f8ecdb;
+
+}
+
+a {
+    color: #ffffff;
+}
+
+img {
+    width: 10%;
+    height: 10%;
+    padding-bottom: 2%;
+    padding-left: 2%;
+}
+
+h1 { 
+    display: flex;
+    font-family: "kepler-std", serif;
+    font-weight: 700;
+    justify-content: space-around;
+    color: rgb(70, 61, 116);
+}
+
+footer { 
+    background-color: #1d165b;
+    color: white;
+    margin-top: 10%;
+}
+
+.bottom {
+    text-align: center;
+    padding-left: 45%;
+    padding-right: 45%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    margin: 0;
+}
