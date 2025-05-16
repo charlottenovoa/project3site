@@ -16,6 +16,11 @@
     border-bottom: 1px solid #ddd;
 }
 
+p { 
+    font-family: "kepler-std", serif;
+    font-weight: 400;
+}
+
 a {
     color: white;
     font-family: "kepler-std", serif;

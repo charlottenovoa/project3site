@@ -12,6 +12,11 @@ body {
     width: 100%;
 }
 
+p { 
+    font-family: "kepler-std", serif;
+    font-weight: 400;
+}
+
 main {
     width: 100%;
 }
