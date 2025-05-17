@@ -6,15 +6,10 @@
     width: 100%;
 }
 
-html {
+html, body {
     background-color: #f8ecdb;
-
+    height: 100%;
   }
-
-body {
-    background-color: #f8ecdb;
-    width: 100%;
-}
 
 main {
     width: 100%;
@@ -52,14 +47,6 @@ a {
     font-style: normal;
 }
 
-
-p { 
-    font-family: "kepler-std", serif;
-    font-weight: 400;
-}
-
-
-
 .header {
     display: flex;
     justify-content: center;
@@ -76,7 +63,9 @@ h1 {
     font-family: "kepler-std", serif;
     font-weight: 700;
     justify-content: space-around;
+    font-size: 40px;
     color: rgb(70, 61, 116);
+    text-align: center;
 }
 
 h2 {
@@ -94,7 +83,6 @@ h2 {
 
 
 
-
 /* images coding */
 
 .story-img {
@@ -104,7 +92,6 @@ h2 {
    justify-content: center;
    padding-left: 20%;
    padding-right: 20%;
-   gap: 1rem;
   }
 
  .ig {
@@ -115,12 +102,23 @@ h2 {
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-align: center;
   }
 
   .social-item img{
    width: 70px;
    height: auto;
   }
+
+  .social-item img[alt="X"]:hover{
+    transform: scale(1.2);
+    transition-duration: .5s;
+   }
+
+   .social-item img[alt="instagram"]:hover{
+    transform: scale(1.2);
+    transition-duration: .5s;
+   }
 
   .social-item a {
     color: rgb(70, 61, 116);
@@ -140,31 +138,38 @@ h2 {
 
 
 
-
 .contact-info{
     align-items: center;
     padding-left: 30%;
     padding-right: 30%;
     color: rgb(70, 61, 116);
     text-decoration: none;
-    padding-top: 2%;
+    padding-top: 4.1%;
 }
 
 .contact-info a {
     display: inline;
     color: rgb(70, 61, 116);
     text-decoration: none;
-    
 }
 
 .contact-info h2 {
     display: inline-block;
+    position: relative;
 }
+
+.contact-info h2:hover {
+    display: inline-block;
+    transform: scale(1.2);
+    transition-duration: .5s;
+}
+
 
 footer { 
     background-color: #251d6f;
     color: white;
-    margin-top: 10%;
+    margin-top: 7%;
+
 }
 
 .bottom {
