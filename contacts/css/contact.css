@@ -6,6 +6,11 @@
     width: 100%;
 }
 
+html {
+    background-color: #f8ecdb;
+
+  }
+
 body {
     background-color: #f8ecdb;
     width: 100%;
@@ -29,12 +34,11 @@ main {
     font-size: 25px;
     padding-top: 3%;
     gap: 5%;
-    width: 100%;
     border-bottom: 1px solid #ddd;
     text-align: center;
 }
 
-img {
+.navbar img {
     width: 10%;
     height: 10%;
     padding-bottom: 2%;
@@ -67,12 +71,20 @@ p {
     font-size: 25px;
 }
 
+h1 { 
+    display: flex;
+    font-family: "kepler-std", serif;
+    font-weight: 700;
+    justify-content: space-around;
+    color: rgb(70, 61, 116);
+}
+
 h2 {
     display: flex;
     font-family: "kepler-std", serif;
     font-weight: 700;
     justify-content: space-around;
-    font-size: 40px;
+    font-size: 20px;
     color: rgb(70, 61, 116);
     text-align: center;
     margin: 10px
@@ -86,41 +98,71 @@ h2 {
 /* images coding */
 
 .story-img {
-    display: flex;
-    gap: 4rem; 
-    justify-content: center; 
-    flex-wrap: wrap; 
-    margin: 20px auto;
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: center;
+   padding-left: 20%;
+   padding-right: 20%;
+   gap: 1rem;
   }
 
-  .row-img {
-        width: 100px; /* control size here */
-        height: auto;
-        border-radius: 8px; 
+ .ig {
+    width: 200%;
+ }
+
+  .social-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .social-item img{
+   width: 70px;
+   height: auto;
+  }
+
+  .social-item a {
+    color: rgb(70, 61, 116);
+  }
+
+
+ .row-img {
+    width: 100px; /* control size here */
+    height: auto;
+    border-radius: 8px; 
   }
 
   .solid-border {
-    margin-top: 5rem;
     border: 1px solid #ddd;
+    margin-top: 5%;
   }
 
 
-  html {
-    background-color: #f8ecdb;
 
+
+.contact-info{
+    align-items: center;
+    padding-left: 30%;
+    padding-right: 30%;
+    color: rgb(70, 61, 116);
+    text-decoration: none;
+    padding-top: 2%;
 }
 
-
-h1 { 
-    display: flex;
-    font-family: "kepler-std", serif;
-    font-weight: 700;
-    justify-content: space-around;
+.contact-info a {
+    display: inline;
     color: rgb(70, 61, 116);
+    text-decoration: none;
+    
+}
+
+.contact-info h2 {
+    display: inline-block;
 }
 
 footer { 
-    background-color: #1d165b;
+    background-color: #251d6f;
     color: white;
     margin-top: 10%;
 }
